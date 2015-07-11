@@ -1,0 +1,275 @@
+
+@media (min-width: @screen-sm-min) 
+
+{
+
+section .main
+{
+display: hidden !important;
+}
+
+}
+
+
+
+
+
+h1,h2,h3,p
+{
+font-family: 'Raleway', sans-serif !important;    
+}
+h2
+{
+font-weight: 600!important;
+}
+
+#logo-principal
+{
+width: 60%;
+}
+
+.cabecera
+{
+font-size:36 px !important;
+color: #2681bd !important;  
+font-family: 'Titillium Web', sans-serif;
+}
+
+
+.encabezados
+{
+font-family: 'Raleway', sans-serif;  
+    
+}
+
+li
+{
+font-family: 'Raleway', sans-serif;  
+}
+
+
+.noticia-img
+{
+height: 48%;
+padding-right: 0!important;
+padding-left: 0!important;
+background: #fff;
+color: 000;
+}
+        
+.noticia
+{
+height: 357px;
+padding-right: 0!important ;
+
+background: #fff;
+color: 000;
+}
+
+
+.noticia:hover
+{
+background: #7f7e7e;
+color: #fff;
+}
+
+
+.noticia-banner
+{
+background: #fff;
+color: 000;
+padding:0 !important;
+height:506px;
+}
+
+.encabezado
+{
+padding: 0!important;
+}
+.noticia-banner:hover
+{
+background: #7f7e7e;
+color: #fff;
+}
+
+
+#land4:hover
+{
+background: #7f7e7e;    
+}
+
+#land2
+{
+margin-left: 0;
+margin-right: 0;
+}
+
+#land3
+{
+background:url('../img/barra.png')repeat;
+background-size:100%;
+color: azure;
+font-family: 'Titillium Web', sans-serif;
+margin: 0px;
+}
+
+#land4
+{
+margin-left: 0;
+margin-right: 0;
+}
+
+
+
+.articulo
+{
+margin: 45px; 
+padding:0;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.57);
+-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.57);
+box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.57);
+}
+.articulo:hover
+{
+-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.65);
+-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.65);
+box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.65);
+}
+
+form-trabaja1
+{
+margin: 0 30%;
+}
+
+/*------------------------------------ Iconos-----------------------------------*/
+
+.icon-entrar
+{
+color:#2681bd;
+font-size: 80px;
+position: absolute;
+right:0;
+}
+
+.icon-ojos
+{
+color: aliceblue;
+font-size: 105px;
+}
+
+.icon-bajar
+{
+color:#2681bd;
+font-size: 80px;
+position: absolute;
+left: 50%;
+bottom: 0;
+}
+
+.icon-bajar:hover
+{
+color: #fff;    
+}
+
+.icon-redes
+{
+margin-top:3%;
+width: 22%;
+display: inline-block;
+}
+
+/*------------------------------------ Iconos-----------------------------------*/
+
+footer{
+background:#2681bd;
+color: azure;
+margin-left: 0!important;
+margin-left: 0!important;
+width: 100%;
+}
+
+/*------------------------------------ blog-----------------------------------*/
+
+div h3
+{
+font-weight: 600;
+font-size: 
+}
+
+#pich{
+background:url('../img/bg.png')no-repeat;
+background-size:100%;
+}
+
+.pich-noticas h3
+{
+margin: 0;
+font-size: 20px!important;
+}
+
+.autor
+{
+font-weight: 200; 
+margin-right: 50px;
+font-weight: bold;
+}
+
+.icon-categoria
+{
+font-size: 100px;
+color: #9b9b9b;
+display: inline-block;
+
+}
+
+.icon-categoria:hover
+{
+color: #f9f7e5;
+background:#b7b6b2; 
+font-size: 103px;
+}
+
+
+.filtro
+{
+background: #e1e0e1;
+border-radius: 10px;
+}
+
+/*------------------------------------ Articulo blog-----------------------------------*/
+
+
+.contenido-blog
+{
+margin: 0 20%;    
+}
+
+.intro
+{
+font-family: 'Raleway', sans-serif;   
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+    
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.encabezado-blog
+{
+text-align: center;
+}
+
+
+
+
+
+
