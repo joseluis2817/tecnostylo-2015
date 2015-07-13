@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
 
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
     <link href="css/normalize.css" rel="stylesheet">
 
+    
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    
 
 <!---stylo circulo--->
     <link rel="stylesheet" type="text/css" href="css/common.css" />
@@ -21,23 +19,12 @@
 
     <!---Ralaway--->
 <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
-    
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-3774628-10']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-   
+    <!--titilium--->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+    <!--Lobster--->
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic' rel='stylesheet' type='text/css'>
 </head>
+    
 <body>
  <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
@@ -47,11 +34,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"><img src="img/logo-pequeno.png" alt="pequeño logo tecnostylo"></a>
+      <a class="navbar-brand" href="index.html"><img src="img/logo-pequeno.png" alt="pequeño logo tecnostylo"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">inicio</a></li>
+        <li class="active"><a href="index.html">inicio</a></li>
         <li><a  href="blog.html">Newstyle</a></li>
         <li><a href="http://tecnostylo.com/productos/">Productos</a></li>
         <li><a href="trabaja-con-nosotros.html">Trabaje con Nosotros</a></li>
@@ -75,7 +62,7 @@
                 <br>
                 <br>
                 <br>
-                <img  id="logo-principal"src="img/logo-grande.png">
+                <img  id="logo-principal"src="img/logo-grande.png" alt="logo primicipal de tecnostylo tu guía de spa y peluquerias.">
                 <h1 class="cabecera">la mejor Guía de spa, peluquería, barberías y gimnasios.</h2>
                 <section class="main">
 				<ul class="ch-grid">
@@ -91,16 +78,19 @@
 					</li>
 					<li>
 						<div class="ch-item">
-							<a href="blog/barberia/"><div class="ch-info">
-								<div class="ch-info-front ch-img-2"></div>
-								<div class="ch-info-back">
-									<h3>Peluquería</h3>
-								</div>
-							</div></a>
+							<a href="blog/peluquerias/">
+                                <div class="ch-info">
+								    <div class="ch-info-front ch-img-2"></div>
+                                    <div class="ch-info-back">
+                                        <h3>Peluquería</h3>
+                                    </div>
+							     </div>
+                            </a>
 						</div>
 					</li>
 					<li>
 						<div class="ch-item">
+                            <a href="blog/barberia/">
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-3"></div>
 								<div class="ch-info-back">
@@ -111,87 +101,113 @@
 					</li>
                     <li>
 						<div class="ch-item">
-							<div class="ch-info">
+                            <a href="blog/barberia/">
+							 <div class="ch-info">
 								<div class="ch-info-front ch-img-4"></div>
 								<div class="ch-info-back">
 									<h3>Spa</h3>
 								</div>
 							</div>
+                            </a>
 						</div>
 					</li>
 				</ul>
 			</section>
             </article>    
         </section>
-   <!-- <h2 class="col-sm-12 text-center">Novedades</h2>-->
     
     
     <section id="land2" class="row">
             <article class="noticia-img col-sm-4 col-md-3">
             <img src="img/foto1.jpg" class="img-responsive">
             </article>
-            <article class="noticia col-sm-8 col-md-3">
-                <h3 class="encabezados">Los mejores spa <br>en Medellin</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu</p>
-                <span>icono de la categoría.</span>
-                
-        
+            <article class="noticia col-sm-8 col-md-3" style="padding-left:0px;">
+                <h3 class="text-center">Los mejores spa en Medellin</h3>
+                 <p class="texto-noticia">mLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu
+                </p>
+                <article class="autor text-center row"  style="margin-left: 0px;">
+                    <p class="col-sm-6"><strong>Jose Luis Munevar Diaz</strong></p>
+                    <p>17 julio 2015</p>
+                </article>
                 <span class="icon-entrar">
             </article>
-            <article class="noticia-img col-xs-12 col-sm-4 col-md-3">
+            <article class="noticia-img col-xs-12 col-sm-4 col-md-3" >
             <img src="img/foto2.png" class="img-responsive">
             </article>
-            <article class="noticia col-xs-12 col-sm-8 col-md-3">
-                <h3>Gimnasia funcional</h3>
-                <p>mLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu</p>
-                <span>icono de la categoría.</span>
+                
+            <article class="noticia col-xs-12 col-sm-8 col-md-3" style="padding-left:0px;">
+                <h3 class="text-center">Gimnasia funcional</h3>
+                <p class="texto-noticia">mLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu</p>
+
+                <article class="autor text-center row">
+                    <p class="col-sm-6"><strong>Jose Luis Munevar Diaz</strong></p>
+                    <p>17 julio 2015</p>
+                </article>
                 <span class="icon-entrar">
             </article>
-
-            
-        </section>
+    </section>
+        
+        
+        
+        
         <section id="land3" class="jumbotron text-center">
             <h3>La guía más completa de peluquerías, barberías centros de belleza, spa y gimnacios de Colombia</h3>
             <span class="icon-ojos"></span>
         </section>
         
+        
+        
+        
         <section id="land4" class="row">
             <div class="noticia-banner col-sm-6">
-                <img src="img/imagen-2.jpg" class="img-responsive encabezado col-sm-12" alt="barbería para todo tipo de barba estilo y tendencias en barbas">
+                <img src="img/merman.png" class="img-responsive encabezado col-sm-12" alt="merman la ultima tendencia en barbas masculinas">
             </div>
             <div class="noticia-banner col-sm-6 text-center">
-                <h3 class="text-center">Tipos de Barba</h3>
+                <h3 class="text-center">Merman la nueva tendencia en barbas</h3>
                 <br>
-                <br>
-                <p class="text-center">El garage Barber shop eso tendra 140 caracteres de descripción.sklsajdandskckd
-                odfvkmsflvmfvjkbsklsjvblkfjbl</p>
-                <span>categoría del icono</span>
-                <span class="icon-bajar"></span>
+                
+                <p class="text-center pich-noticia-banner">La tendencia de las barbas lleva untiempo la calle y las pasarelas de moda para imponerse entre los hombres. Pues ahora de nuevo nos sorprenden, porque la tendencia del verano parece ser teñirse la barba de colores. Son los llamados merman, los hombres que se tiñen la barba de colores acidos y marinos.
+                </p>
+                
+                <!--<a id="verlink"href="#">Ver más</a>-->
+                <article class="autor text-center row"  style="margin-left: 0px;">
+                    <img class="col-sm-6"id="autor-img" src="img/author.jpg" style="margin-left:30px;">
+                    <p class="col-sm-6"><strong>Jose Luis Munevar Diaz</strong></p>
+                    <p>17 julio 2015</p>
+                </article>
+                    <span class="icon-bajar"></span>
             </div>
         </section>  
     </section>    
-  <footer class="row">
-            <div class="col-sm-3">
+    <footer class="row">
+            <div class="col-sm-3" style="margin-top:20px; margin-left:20px;">
                 <p>
                 <strong>Dirección</strong> Crr 83 #17- 103
                 <em>info@tecnostylo.com</em><br>
                 <strong>telefono</strong>3421234.<br>
                 </p>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="margin-top:20px;">
                 <ul>
-                    <li>políticas</li>
-                    <li>En que creemos</li>
-                    <li>Información</li>
+                    <a href="#"><li>Políticas</li></a>
+                    <a href="#"><li>En que creemos</li></a>
+                    <a href="#"><li>Información</li></a>
                 </ul>
-            </div >
-            <div id="redes-sociales" class="col-sm-3">
-                    
-                <img class="img-responsive icon-redes" src="img/facebook.png">
-                <img class="img-responsive icon-redes" src="img/instagram.png">
-                <img class="img-responsive icon-redes" src="img/twitter.png">
             </div>
-        </footer>   
+          
+      <div id="redes-sociales" class="col-sm-3" style="margin-top:20px;">
+          <p><span id="texto-redes" class="text-center">Siguenos en nuestras redes</span></p>
+                <figure class="col-sm-4">
+                    <a href="https://www.facebook.com/tecnostylo" TARGET="_blank"><img class="img-responsive icon-redes" src="img/facebook.png"></a>
+                </figure>
+                <figure class="col-sm-4">
+                    <a href="https://instagram.com/tecnostylo" TARGET="_blank"><img class="img-responsive icon-redes"  src="img/instagram.png"></a>
+                </figure>
+                <figure class="col-sm-4">
+                    <a href="https://twitter.com/tecnostylo" TARGET="_blank"><img class="img-responsive icon-redes"  src="img/twitter.png"></a>
+                </figure>
+            </div>
+    </footer>   
     
     
 </body>

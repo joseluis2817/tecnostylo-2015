@@ -18,8 +18,14 @@
 }
 
 .ch-grid li {
-	width: 220px;
-	height: 220px;
+	width: 180px;
+	height: 180px;
 	display: inline-block;
 	margin: 20px;
+}
+
+
+.ch-item h3
+{
+font-size: 12px;
 }

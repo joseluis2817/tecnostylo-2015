@@ -5,8 +5,9 @@ footer
     margin-left: 0!important;
     margin-left: 0!important;
     width: 100%;
+    position: absolute!important;
+    bottom:0;
 }
-
 
 /*------------------------------------ blog-----------------------------------*/
 
@@ -32,6 +33,8 @@ font-size: 20px!important;
 font-weight: 200; 
 margin-right: 50px;
 font-weight: bold;
+border: 1px solid blue;
+border-bottom: none;
 }
 
 .icon-categoria
@@ -57,11 +60,7 @@ border-radius: 10px;
 }
 
 .icon-redes
-{
-margin-top:3%;
-width: 70%;
-display: inline-block;
-}
+
 
 
 /*------------------------------------ Articulo blog-----------------------------------*/
